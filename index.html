@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./dist/style.css">
-  <title>Arik Tolmit</title>
-</head>
-<body>
-  <h1 class="text-6xl">Hehehe</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* * {
+        border: 1px red solid;
+      } */
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <style type="text/tailwindcss">
+      @theme {
+        @extend {
+          @spacing {
+            13: "3.25rem";
+          }
+        }
+      }
+    </style>
+    <title>Arik Tolmit</title>
+  </head>
+  <body>
+    <h1 class="text-6xl clifford font-bold text-center my-8">
+      Learning utility
+      <span
+        class="bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent"
+        >Tailwind CSS</span
+      >
+    </h1>
+    <section
+      class="bg-gradient-to-br from-indigo-200 via-red-400 to-yellow-300 to-emerald-500 to-90% mb-10"
+    >
+      <h2 class="text-center font-semibold text-2xl">Spacing</h2>
+      <div class="m-13 bg-red-200">Margin</div>
+      <div class="py-8 text-center">Hehe</div>
+    </section>
+
+    <section class="mb-10 bg-amber-200">
+      <h2>Sizing</h2>
+      <div class="w-32 h-32 bg-midnight">Kotak 1</div>
+    </section>
+
+    <section class="mb-96 font-japan mx-auto max-w-3xl">
+      <h2 class="mb-2 text-4xl font-bold">
+        Learning typography in TailwindCSS
+      </h2>
+      <div class="mb-4 text-lg text-gray-500">
+        By <a href="#" class="text-gray-700 font-semibold">Tolmit</a>, 5 Feb
+        2025
+      </div>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet
+        <a href="#" class="underline font-semibold text-blue-500"
+          >consectetur</a
+        >
+        adipisicing elit. Neque natus doloribus aut, repudiandae eveniet vero
+        quo minima pariatur sunt cum! Commodi cum totam velit dolorum ex vel
+        iusto ab. Totam reprehenderit iure earum, illum culpa cum consequuntur
+        officiis iusto inventore! Ex eligendi quis error asperiores placeat
+        quisquam sequi odit sint!
+      </p>
+      <blockquote class="mb-4 italic font-thin text-xl">
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. A iure ipsa
+        alias vel repudiandae accusantium possimus quibusdam! Repellendus
+        tempore commodi ad fugit dolores! Nam veniam eos, necessitatibus debitis
+        eum error!"
+      </blockquote>
+      <p class="mb-4">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+        voluptatibus excepturi eligendi iure consequatur velit debitis nemo iste
+        culpa repellat.
+      </p>
+    </section>
+  </body>
 </html>
