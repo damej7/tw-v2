@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+#toggle:checked ~ label div.toggle-circle {
+  @apply translate-x-3;
+}
+
 @theme {
   --font-inter: "Inter", "sans-serif";
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
