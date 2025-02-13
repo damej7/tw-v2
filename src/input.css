@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
 @theme {
-  --color-midnight: #121063;
-  --color-tahiti: #3ab7bf;
-  --color-bermuda: #78dcca;
-  @extend {
-    font-family {
-      inter: ["Inter", "sans-serif"],
-      japan: ["42dot Sans", "serif"]
-    }
-  }
+  --font-inter: "Inter", "sans-serif";
 }
